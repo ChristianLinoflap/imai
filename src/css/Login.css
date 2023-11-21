@@ -1,0 +1,114 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e1f2fb;
+  }
+  
+  .login-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px; 
+    width: 700px; 
+    margin-left: 15%; /* Adjust the margin-right to bring the containers closer */
+  }
+  
+  .login-right {
+    flex: 1;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 770px; 
+    min-width: 700px; 
+    margin-right: 5%; /* Adjust the margin-left to bring the containers closer */
+  }
+  .login-right h2 {
+    text-align: center;
+    margin: 0%;
+    padding:0%;
+  }
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+  .login-right h5 {
+    text-align: center;
+    margin: 0%;
+    padding:0%;
+  }
+  .fontS{
+    font-size: 13px;
+}
+  .login-logo {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+  }
+  
+  .login-label {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1366d9;
+  }
+  .formContents{
+    padding-inline: 20px;
+    padding-top: 10px;
+    width: 40%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Google{
+    width: 40%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin: 5px;
+  }
+  .Sign{
+    width: 40%;
+    padding: 10px;
+    background-color: #3b97ed;
+   
+    margin: 5px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #7abaf2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }

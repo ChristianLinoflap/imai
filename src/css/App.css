@@ -1,0 +1,183 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the height of the container */
+}
+.RouterContainer {
+  flex: 1; /* Allow the container to occupy the remaining space */
+  display: flex;
+}
+body{
+  margin: 0;  
+  padding: 0;
+  background-color: #E1F1F9;
+  height: fit-content;
+  font-family: 'Inter', sans-serif;
+}
+.Content {
+  flex: 1; /* Allow the content to occupy the remaining space */
+}
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafc;
+  color: #1570EF;
+  padding: 5px;
+}
+
+.Search {
+  /* Allow the Search input to occupy the remaining space */
+  width: 500px;
+  padding-left: 350px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Profile {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.text-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+.Logo{
+  display: flex;
+  justify-content: center;
+  background-color: #f8fafc;
+  color: #1570EF;
+}
+.Header .Profile{
+  display: inline-flex;
+  padding-right: 100px;
+}
+.Sidebar{
+  min-width: 200px; 
+  width: 200px;
+  background-color: #f8fafc;
+  background-color: #f8fafc;
+  color: #ffffff;
+}
+.SidebarList {
+  margin: 0;
+  height: auto;
+  padding: 0;
+  width: 100%;
+  padding-top: 50px;
+  color: #797d83;
+}
+.SidebarListB {
+  height: auto;
+  margin-top: 200px;
+  padding: 0;
+  width: 100%;
+  color: #797d83;
+}
+.SidebarListB .row:hover{
+  cursor: pointer;
+  color: #9ac7f4;
+}
+.SidebarList .row:hover{
+  cursor: pointer;
+  color: #9ac7f4;
+}
+.SidebarListB .row{
+  width: 70%;
+  padding-left: 25px;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.SidebarList .row{
+  padding-left: 25px;
+  width: 70%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.SidebarList #active{
+  color: #9ac7f4;
+}
+.SidebarListB #active{
+  color: #9ac7f4;
+}
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row #title{
+  flex: 70%;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set your preferred height */
+  width: 200px; /* Set your preferred width */
+  border: 1px solid #000000; /* Optional border styling */
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+}
+.Manage-Card {
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid #ccc; /* Optional border styling */
+  height: fit-content;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+.Manage-Card2 {
+  display: flex;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  justify-content: start;
+}
+.Combined-Text h2{
+ margin: 0%;
+ padding: 0%;
+ height: 0px;
+}
+.Combined-Text h5{
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+ }
+ 
+.Combined-Text{
+  display: grid;
+  justify-content: start;
+  margin: 0px;
+}

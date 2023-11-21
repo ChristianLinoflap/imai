@@ -1,0 +1,80 @@
+
+
+.Split-Dash{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Split-Dash .Left-Dash{
+  height: auto;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.Split-Dash .Left-Dash .Left-Grid-Dash{
+  display: grid;
+  height: auto;
+  /* background-color: pink; */
+  justify-content: center;
+ 
+}
+.Split-Dash .Left-Dash .Left-Grid-Dash .Card-1{
+  display: grid;
+  padding-left: 10px;
+  background-color: white;
+  width:  800px;
+  height: 130px;
+  margin-top: 50px;
+  margin-inline: 20px;
+  border-radius: 5px;
+}
+
+
+.Split-Dash .Left-Dash .Left-Grid-Dash .Card-2{
+  display: grid;
+  padding-left: 10px;
+  /* background-color: yellow; */
+  background-color: white;
+  width:  800px;
+  height: 130px;
+  margin-top: 20px;
+  margin-inline: 20px;
+  border-radius: 5px;
+}
+.Split-Dash .Left-Dash .Left-Grid-Dash .Card-3{
+  display: grid;
+  padding-left: 10px;
+  /* background-color: green; */
+  background-color: white;
+  width:  800px;
+  height: 250px;
+  margin-top: 20px;
+  margin-inline: 20px;
+  border-radius: 5px;
+}
+.Split-Dash .Right-Dash{
+  height: auto;
+  width: 50%;
+}
+.Split-Dash .Right-Dash .Right-Grid-Dash .Card-1{
+  display: grid;
+  padding-left: 10px;
+  background-color: white;
+  width:  400px;
+  height: 280px;
+  margin-top: 50px;
+  margin-inline: 20px;
+  border-radius: 5px;
+}
+.Split-Dash .Right-Dash .Right-Grid-Dash .Card-2{
+  display: grid;
+  padding-left: 10px;
+  background-color: white;
+  width:  400px;
+  height: 250px;
+  margin-top: 20px;
+  margin-inline: 20px;
+  border-radius: 5px;
+}

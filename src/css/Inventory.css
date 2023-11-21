@@ -1,0 +1,113 @@
+.Inventory-Grid{
+  height: auto;
+  /* background-color: pink; */
+  justify-content: space-between;
+  
+}
+
+.Product-Button{
+  display: flex;
+}
+.Flexed{
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+}
+.Inventory-Grid .Card-1{
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  width:  auto;
+  height: 200px;
+  border-radius: 5px;
+  margin-inline: 20px;
+}
+.Inventory-Grid .Box-1{
+  display: grid;
+  justify-content: center;
+  background-color: #ebebeb;
+  width: 200px;
+  height: 160px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.Box-1 #Categories{
+  color: #3e88ef;
+}
+.Box-1 #Brands{
+  color: #ad44b7;
+}
+.Sep-Box-1 #Products{
+  color: #e3a861;
+}
+.Sep-Box-2 #Selling{
+  color: #8fbe96;
+}
+.Inventory-Grid .Joined{
+display: flex;
+margin: 20px;
+}
+.Inventory-Grid .Joined .Sep-Box-1{
+  margin: 0px;
+  display: grid;
+  justify-content: center;
+  background-color: #ebebeb;
+  width: 200px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+}
+.Inventory-Grid .Joined .Sep-Box-2{
+  margin: 0px;
+  display: grid;
+  background-color: #ebebeb;
+  width: 520px;
+  height: 160px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 2px solid #e1dfdf;
+  padding-left: 10px;
+}
+.Inventory-Grid .Box-2{
+  display: grid;
+  justify-content: center;
+  background-color: #ebebeb;
+  width: 200px;
+  height: 160px;
+  border-radius: 5px;
+  
+  
+}
+.Inventory-Grid .Card-2{
+  /* background-color: green; */
+  background-color: white;
+  width:  auto;
+  height: auto;
+  border-radius: 5px;
+  margin-top:10px;
+  padding-top: 20px;
+  margin-inline: 20px;
+}
+.table-container {
+  display: grid;
+  padding-bottom: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+th {
+  background-color: #f2f2f2;
+}
