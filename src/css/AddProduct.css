@@ -1,121 +1,129 @@
 .product-modal {
-    display: flex; /* Hide the modal by default */
-    position: fixed; /* Stay in place */
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgba(0, 0, 0, 0.4);
- 
-  }
-  
-  .product-modal-content {
-    border-radius: 5px;
-    background-color: #E1F1F9;
-    margin: 10%; /* 15% from the top and centered */
-    padding-inline: 30px;
-    border: 1px solid #ddd;
-    width: 30%;
-    /* Could be more or less, depending on screen size */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .product-modal-content h2 {
-    text-align: center;
-  }
-  
-  .product-modal-content form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .product-modal-content label {
-    margin-bottom: 10px;
-  }
-  .input-field {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .input-field label {
-    min-width: 150px;
-    margin-right: 20px;
-    font-weight: bold;
-  }
-  
-  .image-preview {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 0%;
-    margin-inline: auto;
-  }
-  
-  .image-preview img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-  
-  .product-modal-content input,
-  .product-modal-content textarea {
-    width: 100%;
-    padding: 5px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .product-modal-buttons {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-    
-  }
-  
-  .discard-button,
-  .add-product-button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius:5px;
-    
-    
-  }
-  
-  .discard-button {
-    background-color: #f44336;
-    
-  }
-  .Logout {
-    position: fixed;
-    z-index: 999; /* Set the z-index to a high value to ensure it's on top */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E1F1F9;
-  }
-  
-  .Logout img {
-    max-width: 80%;
-    max-height: 80%;
-  }
+  display: flex;
+  /* Hide the modal by default */
+  position: fixed;
+  /* Stay in place */
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.product-modal-content {
+  border-radius: 5px;
+  background-color: #E1F1F9;
+  margin: 10%;
+  /* 15% from the top and centered */
+  padding-inline: 30px;
+  border: 1px solid #ddd;
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-modal-content h2 {
+  text-align: center;
+}
+
+.product-modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-modal-content label {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  min-width: 150px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.image-preview {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-inline: auto;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-modal-content input,
+.product-modal-content textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+
+}
+
+.discard-button,
+.add-product-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+}
+
+.discard-button {
+  background-color: #f44336;
+
+}
+
+.Logout {
+  position: fixed;
+  z-index: 999;
+  /* Set the z-index to a high value to ensure it's on top */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E1F1F9;
+}
+
+.Logout img {
+  max-width: 80%;
+  max-height: 80%;
+}
